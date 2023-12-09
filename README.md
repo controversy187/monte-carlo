@@ -10,10 +10,10 @@ The "work items" themselves are irrelevant. They could be User Stories, Features
 
 ## How does a Monte Carlo Simulation work?
 Unlike averaging work, which tends to hide details and nuance, the Monte Carlo simulation actually runs sample events, based on historic data. Lets say that your team has gotten 14 tasks done this week, 12 the week before, 8 the week prior, and 22 the week prior to that. So your team's data looks like:
-Week 1: 22
-Week 2:  8
-Week 3: 12
-Week 4: 14
+Week 1: 22  
+Week 2:  8  
+Week 3: 12  
+Week 4: 14  
 
 You can continue to gather as much data as you believe is relevant to the way your team is operating currently, whether that's the past 3 weeks or the past 50. Next, lets say you want to know how long it will take your team to complete a project that has 200 tasks in it, assuming that your team is dedicated to this project and they don't experience any abnormal dependencies or interruptions that they didn't experience during your past data set. We then randomly select one past week from our data set and grab the number of tasks we completed in that week, and subtract it from our total of 200 tasks. We keep doing that until the remaining tasks is 0, and then count how many times we had to pull a random week's completed task count. That total would be the number of weeks it took us to complete the project in a single trial.
 
