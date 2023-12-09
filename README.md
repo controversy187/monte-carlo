@@ -9,7 +9,8 @@ The second model forecasts how many work items you can expect to complete in a g
 The "work items" themselves are irrelevant. They could be User Stories, Features, Epics, Tasks, or any similar-sized bodies of work. Likewise, the iterations could be hours, days, weeks, sprints, quarters, or any other timebox, as long as it is consistent across the model.
 
 ## How does a Monte Carlo Simulation work?
-Unlike averaging work, which tends to hide details and nuance, the Monte Carlo simulation actually runs sample events, based on historic data. Lets say that your team has gotten 14 tasks done this week, 12 the week before, 8 the week prior, and 22 the week prior to that. So your team's data looks like:
+Unlike averaging work, which tends to hide details and nuance, the Monte Carlo simulation actually runs sample events, based on historic data. Lets say that your team has gotten 14 tasks done this week, 12 the week before, 8 the week prior, and 22 the week prior to that. So your team's data looks like:  
+  
 Week 1: 22  
 Week 2:  8  
 Week 3: 12  
