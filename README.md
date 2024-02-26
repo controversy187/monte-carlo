@@ -1,6 +1,6 @@
 # Monte Carlo Simulator
 This notebook runs Monte Carlo simulations in two dimensions. Try it live at
-https://colab.research.google.com/github/controversy187/monte-carlo/blob/main/query-jira.ipynb
+https://colab.research.google.com/github/controversy187/monte-carlo/blob/main/monte-carlo.ipynb
 
 The first model forecasts how long it will take to complete a given backlog, given the historical amount of work completed.
 
